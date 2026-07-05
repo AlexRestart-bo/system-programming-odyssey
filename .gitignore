@@ -1,0 +1,103 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# vcpkg
+vcpkg_installed/
+
+# debug information files
+*.dwo
+
+# test output & cache
+Testing/
+.cache/
+
+# extra
+cmake-build-*/
+out/
+bin/
+
+*.core
+core.*
+*.dmp
+
+asan.log
+ubsan.log
+tsan.log
+*.sanitizer.log
+
+*.gdb_history
+*.valgrind.log
+*.perf.data
+*.perf.data.old
+
+*.elf
+*.o.tmp
+
+*.pcap
+*.pcapng
+*.memdump
+
+*.key
+*.pem
+*.crt
+.env
+.env.local
+
+dump_*
+memory_*
