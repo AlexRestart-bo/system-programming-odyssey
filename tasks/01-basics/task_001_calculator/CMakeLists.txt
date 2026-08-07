@@ -3,5 +3,4 @@ project(Task001Calculator)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(task_001_calculator main.cpp)
-
+add_executable(task_001_calculator src/main.cpp)
